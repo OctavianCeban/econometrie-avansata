@@ -46,7 +46,7 @@ Exista si requiremetents de pip. Daca vreti sa folositi pip in loc de conda (ca 
 
 `pip install -r requirements_pip.txt`
 
-5. Adauga virtual env creat ca si python kernel 
+4. Adauga virtual env creat ca si python kernel 
 
 `python -m ipykernel install --user --name econometrie-avansata --display-name "econometrie-avansata"`
 
