@@ -3,9 +3,16 @@ Pasi pentru a putea rula notebook.
 Optiunea 1 (recomadnat)- uv virtual environment
 Este nevoie de python, uv, vs code instalate.
 
+* git clone: git clone https://github.com/OctavianCeban/econometrie-avansata.git
+
+* cd econometrie-avansata 
+* uv venv .venv
+* Activate with: .venv\Scripts\activate  (sau ce va este sugerat in functie de sistemul de operare)
+* uv sync  
+* uv run python -m ipykernel install --user --name advanced_econometrics --display-name "uv_advanced_econometrics"
 
 
-
+Acum ar trebui, ca dupa un reopen / reload window in vs code sa apara la kernel acest virtual environemtn
 
 
 Optiunea 2 - Conda
@@ -60,8 +67,6 @@ Exista si requiremetents de pip. Daca vreti sa folositi pip in loc de conda (ca 
 `python -m ipykernel install --user --name econometrie-avansata --display-name "econometrie-avansata"`
 
 Acum ar trebui sa gasiti kernelul la jupyter notebook
-
-
 
 
 
