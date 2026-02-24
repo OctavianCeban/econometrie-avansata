@@ -21,9 +21,9 @@ Apoi mergeti intr-un folder special pentru seminar unde va fi tot ce vom lucra l
 Pasi:
 
 
-1. Creaza un conda environment (intr-un terminal, de preferat anaconda powershell prompt):
+1. Creaza un conda environment (intr-un terminal, de preferat anaconda powershell prompt), de prefarat cu python 3.12:
 
-`conda create -n econometrie-avansata`
+`conda create -n econometrie-avansata python=3.12`
 
 
 Daca te te intreaba "Proceed y\n" apasa `y` si enter
