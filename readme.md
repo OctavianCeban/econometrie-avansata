@@ -1,5 +1,14 @@
 Pasi pentru a putea rula notebook.
 
+Optiunea 1 (recomadnat)- uv virtual environment
+Este nevoie de python, uv, vs code instalate.
+
+
+
+
+
+
+Optiunea 2 - Conda
 Este nevoie de Anaconda si de VS Code instalate.
 
 Daca abia ai instalat Anaconda si VS Code si vrei sa faci un setup mai usor de folosit poti face si urmatorii pasi:
